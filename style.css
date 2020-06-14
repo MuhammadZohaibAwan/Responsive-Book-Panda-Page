@@ -1,0 +1,268 @@
+/* Write your CSS below. Try to make it responsive (i.e. no horizontal scroll) */
+*{
+   
+    color : #222;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.ratings i{
+  color:#f7b632;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 12x;
+    font-size: 0.9em;
+}
+
+header ul{
+list-style:  none;
+margin: 0;
+height: 100%;
+padding: 0;
+display: flex;
+align-items: center;
+}
+
+header li a{
+    padding: 0 1em;
+}
+
+header li{
+    display: inline-block;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    
+    
+}
+
+#product-sumary{
+    display: flex;
+    justify-content: center;
+
+}
+
+#product-sumary img{
+   height: 400px;
+    
+}
+
+
+
+#product-info {
+    padding:0 1em;
+    
+}
+
+
+#product-info p{
+    margin: 5px 0 1em 0;
+}
+
+   
+    #product-info h1{
+    font-size: 1.2em;
+    letter-spacing: 3px;
+    
+}
+
+
+
+#product-sumary h1{
+    text-transform: uppercase;
+    margin: 0;
+    letter-spacing: 2px;
+
+
+
+}
+
+
+
+.pricing-container{
+    border-width: 2px 0;
+    border-style: solid;
+    border-color: #dddddd;
+    margin-top: 1em;
+    padding: 1em 0em;
+
+}
+
+
+
+.pricing-container h3{
+    margin: 0 1em 0 0;
+}
+
+button{
+    background-color: #f0839e;
+    font-size: 1em;
+    padding: 10px 4em;
+    border: none;
+    color: white;
+   
+}
+
+button i {
+    color: white;
+    margin-right: 10px;
+    
+
+}
+
+#pricing{
+    display: flex;
+    margin-bottom: 1em;
+    
+}
+
+#pricing p{
+    margin: 0;
+    color: #b12704;
+
+}
+
+
+#pricing p:first-child {
+    font-size: 1.2em;
+}
+
+#pricing p:nth-child(2) {
+    font-size: 1.2em;
+    
+}
+
+#pricing p:nth-child(3) {
+    font-size: 11px;
+}
+
+
+@media (max-width : 600px){
+    #product-sumary{
+        flex-direction: column;
+    }
+}
+
+#product-description {
+    border-width: 2px 0;
+    border-style: solid;
+    border-color: #dddddd;
+    margin: 1em 0 0 0;
+}
+
+#product-sumary img {
+    height: 400px;
+}
+
+main{
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+}
+
+article{
+    width: 40em;
+    background-color: white;
+    padding:0 10%;
+   
+}
+
+body{
+    margin: 0;
+}
+
+header image ,header li{
+   background-color: rgba(255, 255, 255, 0.77);
+   border-radius: 10px;
+   
+   
+}
+
+#logo{
+    margin: 10px;
+}
+
+#product-sumary figure{
+    height: 300px;
+    background-image: url("images/book-item.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-color: #cccccc;
+    min-width: 45%;
+    margin: 0;
+}
+
+
+header li{
+    display : inline-bloack;
+    padding : 10px 1em; 
+    }
+
+.pricing-container,#product-description, 
+#author-info{
+    border-width: 2px 0;
+    border-style: solid;
+    border-color: #dddddd;
+    padding: 1em 0;
+    margin-top: 1em;
+
+}
+
+
+#product-description p{
+ margin-top: 1em;
+}
+
+#product-description a{
+    color: blue;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+#product-details li{
+    margin-bottom:1em ;
+}
+
+#product-details ul{
+    padding: 0;
+}
+
+#product-details{
+    margin: 2em 0;
+}
+
+
+
+#product-details h3{
+    text-transform: uppercase;
+    font-size: 1.3em;
+ letter-spacing: 2px;
+
+}
+
+
+.ratings{
+    display: inline-block;
+}
+
+
+#author-info h3{
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+
+#author-info p{
+    padding-left: 1em;
+}
